@@ -12,6 +12,15 @@ body {
   background: white;
 }
 
+img { 
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
 a, a:visited {
     color: inherit;
 }
@@ -157,4 +166,92 @@ h4 {
 
 .ceramics-description {
 	background-color: cornflowerblue;
+}
+
+
+
+footer {
+	margin-top: -3.5em;
+	padding-top: 3.5em;
+	background-image: -webkit-linear-gradient(bottom left, rgb(255,91,127) 0%, rgb(255,213,86) 100%);
+	background-image: -o-linear-gradient(bottom left, rgb(255,91,127) 0%, rgb(255,213,86) 100%);
+	background-image: linear-gradient(to top right, rgb(255,91,127) 0%, rgb(255,213,86) 100%);
+}
+
+.footer-content {
+	width: 64%;
+	margin: 0 auto;
+	padding-bottom:1.7em;
+}
+
+.footer-social {
+	display: block;
+	width: 100%;
+	list-style-type: none;
+	text-align: center;
+}
+
+.footer-social li {
+	display: inline-block;
+	margin: 0 1.2em;
+}
+
+.footer-social li a {
+	line-height: 3.5em;
+	display: inline-block;
+	width: 4em;
+	height: 4em;
+	text-align: center;
+	border: 2px solid rgba(255,255,255,.3);
+	border-radius: 50%;
+}
+.footer-social li a:hover {
+	border-color: #fff;
+	background: #fff;
+}
+
+.footer-social li a img {
+	width: auto;
+	height: 1em;
+}
+.footer-social li a .social-hover {
+	display: none;
+}
+.footer-social li a:hover .social-default {
+	display: none;
+}
+.footer-social li a:hover .social-hover {
+	display: inline;
+}
+.footer-info {
+	padding-top: 2em;
+}
+.footer-info p {
+	font-size: .8em;
+	color:#fff;
+	line-height: 1.55;
+	max-width: 36em;
+	margin-bottom: 1.7em;
+}
+.footer-info {
+	clear: both;
+}
+.footer-legal {
+	opacity: .8;
+}
+.footer-credit a:hover {
+	text-decoration: none;
+}
+
+.footer-credit {
+	float: right;
+	width: 40%;
+	text-align: right;
+	position: relative;
+}
+
+.footer-disclaimer {
+	float: left;
+	width: 60%;
+	position: relative;
 }
