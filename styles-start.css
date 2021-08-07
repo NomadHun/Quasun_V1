@@ -12,6 +12,10 @@ body {
   background: white;
 }
 
+a, a:visited {
+    color: inherit;
+}
+
 header {
 	width: 100%;
 	top: 0px;
@@ -67,9 +71,9 @@ header {
   text-decoration: none;
   letter-spacing: .15em;
   text-transform: uppercase;
-  color: #000;
-  webkit-transition: color .3s;
-  transition: color .3s;
+  color: #000000;
+  webkit-transition: color .5s;
+  transition: color .5s;
 }
 
 .site-nav ul li a:hover {
