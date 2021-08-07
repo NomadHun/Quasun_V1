@@ -132,6 +132,7 @@ h4 {
   position: relative;
   height: 54vw;
   background-color: #d9b382;
+  background-image: linear-gradient( 71.2deg,  rgba(217,179,130,0.83) 28.7%, rgba(253,219,174,0.93) 95.6% );
 }
 .hero-content {
   font-family: 'acumin-pro-extra-condensed', sans-serif;
