@@ -33,6 +33,22 @@ header {
 	position: fixed;
 	z-index: 1000;
 }
+.header {
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	padding: 1.5em;
+	position: fixed;
+	z-index: 1000;
+	transition: all 1s ease-in-out;
+}
+
+.header.change-color {
+    background: #fff;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
 
 .site-logo {
   position: relative;
@@ -81,7 +97,7 @@ header {
   letter-spacing: .15em;
   text-transform: uppercase;
   color: #000000;
-  webkit-transition: color .5s;
+  -webkit-transition: color .5s;
   transition: color .5s;
 }
 
@@ -174,6 +190,46 @@ h4 {
 	font-size: 1.5em;
 	line-height: 1.8;
 	letter-spacing: .1em;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 22px;
+  background-color: #68FC79;
+  border: none;
+  color: #2F2F2D;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .artworks {
