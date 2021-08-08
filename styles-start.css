@@ -33,20 +33,11 @@ header {
 	position: fixed;
 	z-index: 1000;
 }
-.header {
-	width: 100%;
-	top: 0px;
-	left: 0px;
-	padding: 1.5em;
-	position: fixed;
-	z-index: 1000;
-	transition: all 1s ease-in-out;
-}
 
-.header.change-color {
+header.active {
     background: #fff;
-    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
 }
 
@@ -147,7 +138,7 @@ h4 {
 .hero {
   position: relative;
   height: 54vw;
-  background-color: #d9b382;
+  /*background-color: #d9b382;*/
   background-image: linear-gradient( 71.2deg,  rgba(217,179,130,0.83) 28.7%, rgba(253,219,174,0.93) 95.6% );
 }
 .hero-content {
@@ -242,9 +233,10 @@ h4 {
 }
 .artwork .artwork-piece {
 	padding: 5% 0 5% 15%;
-	background-image: -webkit-linear-gradient(top left, rgb(160,55,220) 0%, rgb(83,200,234) 100%);
+	/*background-image: -webkit-linear-gradient(top left, rgb(160,55,220) 0%, rgb(83,200,234) 100%);
 	background-image: -o-linear-gradient(top left, rgb(160,55,220) 0%, rgb(83,200,234) 100%);
-	background-image: linear-gradient(to bottom right, rgb(160,55,220) 0%, rgb(83,200,234) 100%);
+	background-image: linear-gradient(to bottom right, rgb(160,55,220) 0%, rgb(83,200,234) 100%);*/
+	background-image: linear-gradient(90deg, rgba(113,111,120,1) 17%, rgba(180,166,166,1) 39%);
 	width: 50%;
 }
 .artwork-piece figure {
