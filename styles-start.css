@@ -35,7 +35,7 @@ header {
 }
 
 header.active {
-    background: #fff;
+    background: #262626;
     webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
@@ -49,7 +49,7 @@ header.active {
 }
 
 .site-logo img {
-  width: 5em;
+  width: 10em;
 }
 
 .logo {
@@ -66,7 +66,7 @@ header.active {
   width: 80%;
   padding: .75em 1em 0 0;
   opacity: .95;
-  background: none;
+  background: none;	
 }
 
 .site-nav ul {
@@ -82,13 +82,15 @@ header.active {
 }
 
 .site-nav ul li a {
+  font-family: Gill Sans;
   font-size: .85em;
+  font-weight: bold;
   padding-bottom: .5em;
   text-decoration: none;
   letter-spacing: .15em;
   text-transform: uppercase;
-  color: #000000;
-  -webkit-transition: color .5s;
+  color: #876b50;
+  webkit-transition: color .5s;
   transition: color .5s;
 }
 
@@ -366,4 +368,7 @@ footer {
 	float: left;
 	width: 60%;
 	position: relative;
+}
+.header {
+	
 }
