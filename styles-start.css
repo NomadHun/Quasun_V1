@@ -45,11 +45,11 @@ header.active {
   position: relative;
   display: block;
   float: left;
-  width: 3.1em;
+  width: 4em;
 }
 
 .site-logo img {
-  width: 10em;
+  width: 5em;
 }
 
 .logo {
@@ -64,7 +64,7 @@ header.active {
   left: 0;
   display: block !important;
   width: 80%;
-  padding: .75em 1em 0 0;
+  padding: 1em 1em 0 0;
   opacity: .95;
   background: none;	
 }
@@ -82,7 +82,7 @@ header.active {
 }
 
 .site-nav ul li a {
-  font-family: Gill Sans;
+  font-family: 'Gill Sans';
   font-size: .85em;
   font-weight: bold;
   padding-bottom: .5em;
@@ -144,9 +144,9 @@ h4 {
   background-image: linear-gradient( 71.2deg,  rgba(217,179,130,0.83) 28.7%, rgba(253,219,174,0.93) 95.6% );
 }
 .hero-content {
-  font-family: 'acumin-pro-extra-condensed', sans-serif;
+  font-family: 'Gill Sans', sans-serif;
   color: #000000;
-  position: absolute;
+  /*position: absolute;*/
   z-index: 20000;
   padding-top: 4em;
   top: 0;
@@ -156,7 +156,7 @@ h4 {
 }
 
 .hero p {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-family: 'Gill Sans', "serif";
 	color: #343144;
 	text-align: center;
 	text-transform: uppercase;
@@ -175,14 +175,14 @@ h4 {
 }
 
 .intro p {
-	font-family: 'acumin-pro-extra-condensed', sans-serif;
+	font-family: 'Gill Sans', sans-serif;
 	color: #343144;
 	position: relative;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 1.5em;
-	line-height: 1.8;
-	letter-spacing: .1em;
+	font-size: 1.2em;
+	line-height: 1.9;
+	letter-spacing: .08em;
 }
 
 .button {
